@@ -1,0 +1,87 @@
+def string_length(string):
+    return len(string)
+
+
+input_string = "Hello, What's your Name?!"
+length = string_length(input_string)
+print(f"The length of the string is: {length}")
+
+
+def count_characters(string):
+    char_count = {}
+    for char in string:
+        if char in char_count:
+            char_count[char] += 1
+        else:
+            char_count[char] = 1
+    return char_count
+
+
+input_string = "Hello, How are you?!"
+character_counts = count_characters(input_string)
+print(f"Character counts: {character_counts}")
+
+def replace_first_char(input_string):
+    if len(input_string) == 0:
+        return input_string  
+    
+    first_char = input_string[0]  
+    modified_string = first_char + input_string[1:].replace(first_char, '$')
+    return modified_string
+
+
+input_string = input("Hello, What's your name?: ")
+result = replace_first_char(input_string)
+print("Modified string:", result)
+
+def swap_first_two_chars(str1, str2):
+    if len(str1) < 2 or len(str2) < 2:
+        return "Both strings must have at least two characters."
+
+    
+    new_str1 = str2[:2] + str1[2:]  
+    new_str2 = str1[:2] + str2[2:]
+    
+    
+    return new_str1 + ' ' + new_str2
+
+
+str1 = input("What's your name?: ")
+str2 = input("How old are you?: ")
+
+
+result = swap_first_two_chars(str1, str2)
+print("Result:", result)
+
+
+str1 = "Hello"
+str2 = "What's"
+str3 = "your"
+str4 = "name?"
+
+
+result = str1 + " " + str2 + " " + str3 + " " + str4
+
+
+print(result)
+
+
+
+str1 = input("Hello,: ")
+str2 = input("What's your name?: ")
+
+
+result = str1 + " " + str2  
+
+
+print("Concatenated string:", result)
+
+
+name = "Neil Jabess"
+age = 23
+
+
+result = "Hello! My name is " + name + " and I am " + str(age) + " years old."
+
+
+print(result)
