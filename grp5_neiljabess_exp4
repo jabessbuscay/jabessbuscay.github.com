@@ -1,0 +1,95 @@
+
+
+2 my_list = ["apple", 42, True, "banana", 100,
+
+False]
+
+3 print("List:", my_list)
+
+4
+
+5
+
+5
+
+6 my_tuple ("car", 22, False, "bike", 55, True
+
+7 print("Tuple:", my_tuple)
+
+8
+
+9
+
+10 my_set = {"red", 10, True, "blue", 10, False}
+
+11 print("Set:", my_set)
+
+C
+
+12
+
+13
+
+14 my_dict= {
+
+C
+
+15
+
+"name": "Neil",
+
+16
+
+"age": 23,
+
+JS
+
+17
+
+"is_student": False,
+
+18 "grades": [85, 90, 95],
+
+-GO
+
+19
+
+"passed": True
+
+20 }
+
+21 print("Dictionary:", my_dict)
+
+php
+
+22
+
+23
+
+لا
+
+24 print("\nAccessing individual elements:")
+
+25 print("First item in list:", my_list[0])
+
+26 print("First item in tuple:", my_tuple[0])
+
+27 print("Does the set contain 'blue'?", "blue" is
+
+my_set)
+
+28 print("Name in dictionary:", my_dict["name"])
+
+29
+
+30
+
+31 my_list[1] = 99
+
+32 print("\nModified List and Dictionary:")
+
+33 print("List after modification:", my_list)
+
+34 print("Dictionary after modification:", my_dic
+
+)
